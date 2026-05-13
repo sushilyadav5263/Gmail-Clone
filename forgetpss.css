@@ -38,7 +38,7 @@ span{
 .logo{
     height: 50px;
     width: 50px;
-    background-image: url(pngwing.com.png);
+    background-image: url("img/pngwing.com.png");
     background-size: cover;
      margin: 35px;
 }
