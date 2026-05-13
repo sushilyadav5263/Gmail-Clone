@@ -11,9 +11,6 @@ body{
     justify-content: center;
     background-color: var(--gm3-sys-color-surface-container,#f0f4f9);
 }
-.main1{
-    
-}
 .box{
     height: 25rem;
     width: 70rem;
@@ -26,7 +23,7 @@ body{
 .google-logo{
     height: 50px;
     width: 50px;
-    background-image: url(pngwing.com.png);
+    background-image: url("../img/img.png");
     background-size: cover;
     margin: 30px;
     
