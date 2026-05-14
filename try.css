@@ -25,7 +25,7 @@ body{
     width: 50px;
     background-image: url("img/pngwing.com.png");
     background-size: cover;
-    margin: 30px;
+    margin: 20px;
     
 }
 .main{
@@ -36,17 +36,43 @@ body{
 .sing-in {
     margin-bottom: 40px;
 }
-span{
-     font-size: 35px;
-     margin: 10px;
-     margin-left: 35px;
+.nav-mail{
+    height: 37px;
+    width: 240px;
+    border: 1px solid black;
+    border-radius: 30px;
 }
-input{
-    height: 25px;
-    width: 500px;
-    padding: 15px;
-    margin-right: 25px;
+span{
+    font-size: 30px;
+    
+    
+}
+.middle{
+  height: 250px;
+  width: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.middle a{
+    color: black;
+}
+.heading{
     font-size: 25px;
+}
+.password{
+    margin-top: 30px;
+    border-bottom: 2px solid black;
+    margin-bottom: 15px;
+}
+
+.passkey{
+    border-bottom: 2px solid black;
+    margin-bottom: 15px;
+}
+.another{
+     border-bottom: 2px solid black;
+    margin-bottom: 15px;
 }
 .box p{
     margin: 20px;
@@ -57,6 +83,7 @@ a{
     display: flex;
     color: var(--gm3-sys-color-primary, #0b57d0);
     text-decoration: none;
+    
 }
 .btn{
     display: flex;
@@ -99,7 +126,6 @@ select{
     background-color: transparent;
     padding: 15px;
     outline: none;
-    
 }
 .end2{
     display: flex;
@@ -108,5 +134,10 @@ select{
 }
 .end2 a{
     color: black;
+}
+option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 

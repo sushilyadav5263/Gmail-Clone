@@ -36,17 +36,33 @@ body{
 .sing-in {
     margin-bottom: 40px;
 }
+.nav-mail{
+    height: 37px;
+    width: 240px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-left: 25px;
+}
+.nav-o p{
+   font-size: 10px;
+}
 span{
      font-size: 35px;
      margin: 10px;
      margin-left: 35px;
 }
 input{
-    height: 25px;
+    height: 20px;
     width: 500px;
     padding: 15px;
     margin-right: 25px;
     font-size: 25px;
+    display: flex;
+}
+option{
+    height: 50px;
+    width: 50px;
+    background-size: cover;
 }
 .box p{
     margin: 20px;
@@ -89,7 +105,7 @@ a{
 }
 .end{
     height: 25px;
-    width: 160px;
+    width: 130px;
     border-radius: 12px;
     padding: 5px;
 }
@@ -99,7 +115,6 @@ select{
     background-color: transparent;
     padding: 15px;
     outline: none;
-    
 }
 .end2{
     display: flex;
@@ -108,5 +123,10 @@ select{
 }
 .end2 a{
     color: black;
+}
+option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 

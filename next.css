@@ -36,6 +36,12 @@ body{
 .sing-in {
     margin-bottom: 40px;
 }
+.nav-mail{
+    height: 37px;
+    width: 240px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
 span{
      font-size: 35px;
      margin: 10px;
@@ -99,7 +105,6 @@ select{
     background-color: transparent;
     padding: 15px;
     outline: none;
-    
 }
 .end2{
     display: flex;
@@ -108,5 +113,10 @@ select{
 }
 .end2 a{
     color: black;
+}
+option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
