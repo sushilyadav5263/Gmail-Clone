@@ -1,6 +1,4 @@
 *{
-    padding: 0px;
-    margin: 0px;
     font-family: cursive;
 }
 body{
@@ -119,4 +117,5 @@ option{
     align-items: center;
     justify-content: center;
 }
+
 
