@@ -109,5 +109,10 @@ select{
 .end2 a{
     color: black;
 }
+h1{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 400px;
+}
 
 
